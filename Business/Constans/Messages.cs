@@ -23,5 +23,6 @@ namespace Business.Constans
         internal static string SuccessfulLogin;
         internal static string UserAlreadyExists;
         internal static string AccessTokenCreated;
+        internal static string ProductUpdated;
     }
 }
