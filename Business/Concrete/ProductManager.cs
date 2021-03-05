@@ -53,7 +53,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductAdded);
         }
         [CacheAspect]
-        [PerformanceAspect(5)]
+        //[PerformanceAspect(5)]
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour == 1)
